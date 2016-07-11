@@ -60,13 +60,13 @@ public class GameCntrl : MonoBehaviour
 		{
 			rCol = 0.1f;
 			gCol = 0.1f;
-			bCol = 0f;
+			bCol = 0.1f;
 		}
 
 		else if (count >= 5) 
 		{
-			rCol = 0f;
-			gCol = 0f;
+			rCol = 0.05f;
+			gCol = 0.05f;
 			bCol = 0.05f;
 		}
 

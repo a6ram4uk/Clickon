@@ -88,6 +88,7 @@ public class GameCntrl : MonoBehaviour
 
 	void playerLose ()
 	{
-		print ("Player lose");
+		if (PlayerPrefs.GetInt ("Score") < count)
+		PlayerPrefs.SetInt ("Score", count);
 	}
 }

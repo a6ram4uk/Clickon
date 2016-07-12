@@ -21,11 +21,21 @@ public class Buttons : MonoBehaviour
 	{
 		switch (gameObject.name) 
 		{
+
 		case "Play":
 			Application.LoadLevel ("play");
 			break;
+
 		case "Rating":
-			Application.OpenURL ("http://google.com");
+			Application.OpenURL ("http://vk.com/a6ram4uk");
+			break;
+
+		case "Replay":
+			Application.LoadLevel ("play");
+			break;
+
+		case "Home":
+			Application.LoadLevel ("main");
 			break;
 		}
 	}

@@ -4,6 +4,7 @@ using System.Collections;
 
 public class GameCntrl : MonoBehaviour 
 {
+	public GameObject pLost;
 
 	public GameObject colBlock;
 	public Vector3 [] positions;
@@ -90,5 +91,6 @@ public class GameCntrl : MonoBehaviour
 	{
 		if (PlayerPrefs.GetInt ("Score") < count)
 		PlayerPrefs.SetInt ("Score", count);
+		pLost.SetActive (true);
 	}
 }

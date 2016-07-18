@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour
 				Destroy (gameObject);
 			if (transform.position.x < -1.5f)
 				GetComponent <Renderer> ().material.color = Color.Lerp (GetComponent <Renderer> ().material.color, col, Time.deltaTime);
-			transform.position -= new Vector3 (0.03f, 0, 0);
+			transform.position -= new Vector3 (0.05f, 0, 0);
 		}
 
 		if (mCube.GetComponent <Renderer> ().material.color != lastCol)

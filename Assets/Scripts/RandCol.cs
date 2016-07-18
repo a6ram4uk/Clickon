@@ -19,6 +19,6 @@ public class RandCol : MonoBehaviour
 		if (main || right)
 			GetComponent <Renderer> ().material.color = aColor;
 		else
-			GetComponent <Renderer> ().material.color = new Vector4 (aColor.r + Random.Range (0.1f, 0.3f), aColor.g + Random.Range (0.1f, 0.3f), aColor.b + Random.Range (0.1f, 0.3f), aColor.a);
+			GetComponent <Renderer> ().material.color = new Vector4 (aColor.r + Random.Range (0.1f, 0.9f), aColor.g + Random.Range (0.1f, 0.9f), aColor.b + Random.Range (0.1f, 0.9f), aColor.a);
 	}
 }

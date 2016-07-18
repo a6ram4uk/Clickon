@@ -54,19 +54,75 @@ public class GameCntrl : MonoBehaviour
 
 		if (count < 3) 
 		{
+			rCol = 1.0f;
+			gCol = 1.0f;
+			bCol = 1.0f;
+		}
+
+		else if (count >= 3 && count < 6) 
+		{
+			rCol = 0.9f;
+			gCol = 0.9f;
+			bCol = 0.9f;
+		}
+
+		else if (count >= 6 && count < 9) 
+		{
+			rCol = 0.8f;
+			gCol = 0.8f;
+			bCol = 0.8f;
+		}
+
+		else if (count >= 9 && count < 12) 
+		{
+			rCol = 0.7f;
+			gCol = 0.7f;
+			bCol = 0.7f;
+		}
+
+		else if (count >= 12 && count < 15) 
+		{
+			rCol = 0.6f;
+			gCol = 0.6f;
+			bCol = 0.6f;
+		}
+
+		else if (count >= 15 && count < 18) 
+		{
+			rCol = 0.5f;
+			gCol = 0.5f;
+			bCol = 0.5f;
+		}
+
+		else if (count >= 18 && count < 21) 
+		{
+			rCol = 0.4f;
+			gCol = 0.4f;
+			bCol = 0.4f;
+		}
+
+		else if (count >= 21 && count < 24) 
+		{
+			rCol = 0.3f;
+			gCol = 0.3f;
+			bCol = 0.3f;
+		}
+
+		else if (count >= 24 && count < 27) 
+		{
 			rCol = 0.2f;
 			gCol = 0.2f;
 			bCol = 0.2f;
 		}
 
-		else if (count >= 3 && count < 5) 
+		else if (count >= 27 && count < 30) 
 		{
 			rCol = 0.1f;
 			gCol = 0.1f;
 			bCol = 0.1f;
 		}
 
-		else if (count >= 5) 
+		else if (count >= 30) 
 		{
 			rCol = 0.05f;
 			gCol = 0.05f;
